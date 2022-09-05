@@ -232,20 +232,19 @@
     </TableLayout>
 
     <EditText
-        android:inputType="number"
-        android:hint="@string/display"
-        android:autofillHints="false"
         android:layout_width="351dp"
         android:layout_height="84dp"
+        android:autofillHints="false"
+        android:hint="@string/display"
+        android:inputType="number"
         android:text="@string/display"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.688" />
 
     <ImageButton
         android:layout_width="96dp"
